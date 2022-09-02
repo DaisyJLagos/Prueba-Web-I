@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- archivos externos y título de la pagina -->
+  <head>
+    <title>AppDeGattos</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Mono:wght@600&family=Rubik+Maze&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--Etiquetas de encabezado (disponibles hasta el h6)-->
+    <h1>GATOS</h1>
+    <h2 id="titulo-app-gatos">AppDeGatos</h2>
+
+    <!-- MAIN Contenido principal de la página -->
+    <main>
+      <a href="#parrafo-1"">Párrafo 1</a>
+      <a href="#parrafo-2"">Párrafo 2</a>
+      <a href="#parrafo-3"">Párrafo 3</a>
+      
+
+      <h3>Imagenes de gatos:</h3>
+      <!-- src = source y alt = texto alternativo en caso de no poder cargar la imagen -->
+      <a href="https://mangakatana.com/manga/rere-hello.2929" target="_blank" rel="noopener noreferrer"><img id="imagen-de-gatos" src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+
+      <img src="Media/lasagna-receta.jpg" alt="Lasaña">
+
+      <!-- ENLACES EXTERNOS con <a></a> rel = "noopener noreferrer" (prevenir tabnabbing en la que la pestaña de origen se remplaza)-->
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptas <a href="https://mangakatana.com/manga/rere-hello.2929" target="_blank" rel="noopener noreferrer">facilis qui non quasi</a> itaque dolore beatae officia aliquid, repellendus voluptatem nihil saepe odit, deserunt id officiis ut. Beatae, deleniti!</p>
+
+      <!-- ENLACES INTERNOS -->
+      <h3 id="parrafo-1">Parrafo 1</h3>
+      <p>Felis catus has had a very long relationship with humans. Ancient Egyptians may have first domesticated cats as early as 4,000 years ago. Plentiful rodents probably drew wild felines to human communities. The cats' skill in killing them may have first earned the affectionate attention of humans. Early Egyptians worshipped a cat goddess and even mummified their beloved pets for their journey to the next world—accompanied by mummified mice! Cultures around the world later adopted cats as their own companions.</p>
+
+      <h3 id="parrafo-2">Parrafo 2</h3>
+      <p>Like their wild relatives, domestic cats are natural hunters able to stalk prey and pounce with sharp claws and teeth. They are particularly effective at night, when their light-reflecting eyes allow them to see better than much of their prey. Cats also enjoy acute hearing. All cats are nimble and agile, and their long tails aid their outstanding balance.</p>
+
+      <h3 id="parrafo-3">Parrafo 3</h3>
+      <p>Cats communicate by marking trees, fence posts, or furniture with their claws or their waste. These scent posts are meant to inform others of a cat's home range. House cats employ a vocal repertoire that extends from a purr to a screech.</p>
+
+      <!-- Listas No Ordenadas -->
+      <hr>
+      <h3>Listas de gatos</h3>
+      <div class="contenedor-listas">
+        <p>Cosas que los gatos aman:</p>
+        <ul id="lista-gatos-aman">
+          <li>Menta gatuna</li>
+          <li>Apuntadores Láser</li>
+          <li>Lasaña</li>
+        </ul>
+        
+        <p>Cosas que los gatos odian:</p>
+        <ol id="lista-gatos-odian">
+            <li>Truenos</li>
+            <li>Tratamientos Antipulgas</li>
+            <li>Otros gatos</li>
+        </ol>
+      </div>
+      <img class="imagen-de-gatos" src="Media/f.elconfidencial.com_original_389_372_911_389372911b0256841b2459edeb620111.jpg">
+      
+      
+      
+      <form action="/enviar-respuesta">
+        <!-- Radiobuttons -->
+        <label for="interior"><input checked name="interior-exterior" id = "interior" type="radio" value="interior">Interior</label>
+        <br>
+        <label for="exterior"><input name="interior-exterior" id="exterior" type="radio" value="exterior">Exterior</label>
+        <br>
+        <label for="carinoso"><input id="carinoso" name="personalidad" type="checkbox" checked value="carinoso">Cariñoso</label>
+        <label for="energico"><input id="energico" name="personalidad" type="checkbox" value="energico">Enérgico</label>
+        <label for="perezoso"><input id="perezoso" name="personalidad" type="checkbox" value="perezoso">Perezoso</label>
+        
+        <!-- Textbox -->
+        <input type="text" placeholder="URL de la foto de tu gato" required>
+        <br>
+        <!-- Button -->
+        <button type="submit">Enviar</button>
+
+      
+        
+      </form>
+
+    </main>
+    <footer>
+      <p><small> Derechos de Autor - <a href="https://www.youtube.com/watch?v=egah5A4xt3A&list=RDegah5A4xt3A&start_radio=1" target="_blank">DaisyJLagosZ</a></small></p>
+    </footer>
+
+    <!--Etiqueta de parrafos-->
+    <p>Esta etiqueta se utiliza para escribir parrafos</p>
+
+    <!-- ESTILOS DE TEXTOS -->
+    <strong>odian</strong>
+    <em>aman</em>
+    <s>Lasaña</s>
+
+  </body>
+</html>
