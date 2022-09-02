@@ -1,0 +1,65 @@
+/* 
+<!-- Fuentes de google -->
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+a {
+  font-family: 'Rubik Maze', cursive;
+}
+
+.imagen-de-gatos {
+  width: 200px;
+  border-width: 5px;
+  border-color: aqua;
+  border-style: solid; /*none, solid, dotted, dashed, double, groove, ridge, inset, outset
+} 
+
+img {
+  border-radius: 20px;
+}
+
+div {
+  background-color: silver;
+}
+*/
+
+#titulo-app-gatos{
+  font-size: 30px;
+  color: blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagen-de-gatos{
+  border-radius: 50%;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: blueviolet;
+}
+
+#lista-gatos-aman{
+  font-size: 15px;
+  color: rgb(84, 44, 121);
+}
+
+#lista-gatos-odian{
+  margin: 15px;
+  font-size: 20px;
+  color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
