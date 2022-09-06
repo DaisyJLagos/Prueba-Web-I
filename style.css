@@ -27,8 +27,6 @@ img {
 div {
   background-color: silver;
 }
-*/
-
 #titulo-app-gatos{
   font-size: 30px;
   color: blue;
@@ -52,6 +50,33 @@ div {
   font-size: 20px;
   color: crimson;
 }
+/* Selectores de atributo 
+img[alt]{
+  border-radius: 50%;
+}
+
+[type="radio"]{
+  margin: 7px;
+}
+
+[type="checkbox"]{
+  margin: 10px;
+}
+
+a[href="https://www.youtube.com/watch?v=egah5A4xt3A&list=RDegah5A4xt3A&start_radio=1"]{
+  color: violet;
+  text-decoration: none;
+  font-weight: bold;
+}
+*/
+
+body
+{
+  background-color: burlywood;
+}
+
+
+
 
 
 
